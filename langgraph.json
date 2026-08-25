@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./src/agent/ai私厨管家助手.py:agent"
+  },
+  "env":".env"
+}
