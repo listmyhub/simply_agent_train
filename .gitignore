@@ -32,3 +32,6 @@ temp/
  ## ========== 系统文件 ==========
 .DS_Store
 Thumbs.db
+#运行时数据库文件
+*.db
+memory_db.db
