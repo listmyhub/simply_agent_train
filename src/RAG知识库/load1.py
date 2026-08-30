@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 import os
 
-from langchain_community.utilities.tavily_search import TAVILY_API_URL
 
 load_dotenv()
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
