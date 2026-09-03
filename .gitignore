@@ -35,3 +35,4 @@ Thumbs.db
 #运行时数据库文件
 *.db
 memory_db.db
+vector.db

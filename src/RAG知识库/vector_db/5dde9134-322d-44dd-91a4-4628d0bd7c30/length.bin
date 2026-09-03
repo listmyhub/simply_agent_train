@@ -1,1 +1,0 @@
-invalid type: string "一个标准的  RAG  流程通常包含以下三个关键阶段：\n 1.  **索引构建（Indexing）**：\n -  文档加载与清洗\n -  **文本分块（Chunking）**：将长文档切分为语义完整的短文本\n -  向量化（Embedding）：使用  Embedding  模型将文本块转化为向量\n -存入向量数据库（如  Milvus,  Pinecone,  Chroma）\n", expected
