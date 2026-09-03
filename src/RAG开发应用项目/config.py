@@ -7,7 +7,7 @@ EMBEDDING_MODEL="text-embedding-v4"
 GENERATE_MODEL="qwen-turbo"
 RERANK_MODEL="qwen3-rerank"
 #路径配置
-PDF_PATH="./input/ "
+PDF_PATH="C:\\Users\\范帅哥\\PycharmProjects\\PythonProject2\\src\\RAG开发应用项目\\input\\健康档案.pdf"
 VECTOR_BD_PATH="./vector.db"
 COLLECTION_NAME="demo001"
 #分块配置

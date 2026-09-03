@@ -1,7 +1,7 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "agent": "./src/agent/ai私厨管家助手.py:agent"
+    "agent": "./src/RAG开发应用项目_Agent/health_agent.py:agent"
   },
   "env":".env"
 }

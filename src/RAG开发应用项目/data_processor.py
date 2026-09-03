@@ -6,7 +6,7 @@ from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from RAG开发应用项目.config import CHUNK_SIZE, CHUNK_OVERLAP
+from RAG开发应用项目.config import CHUNK_SIZE, CHUNK_OVERLAP, PDF_PATH
 
 
 #脱敏档案
@@ -43,7 +43,7 @@ def split_pdf(docs:List[Document],archive_name:str,record_time:str):
 
 
 if "__main__" == __name__:
-    file=load_pdf("C:\\Users\\范帅哥\\PycharmProjects\\PythonProject2\\src\\RAG开发应用项目\\input\\健康档案.pdf")
+    file=load_pdf(PDF_PATH)
     chunks=split_pdf(file,"健康档案","2026.9.2")
     chunk=[d.page_content for d in chunks]
     print(chunk)
